@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04162FFA1CF373AF00EE7239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04162FF91CF373AF00EE7239 /* main.m */; };
+		04162FFD1CF373AF00EE7239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04162FFC1CF373AF00EE7239 /* AppDelegate.m */; };
+		041630001CF373AF00EE7239 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04162FFF1CF373AF00EE7239 /* ViewController.m */; };
+		041630031CF373AF00EE7239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041630011CF373AF00EE7239 /* Main.storyboard */; };
+		041630051CF373AF00EE7239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041630041CF373AF00EE7239 /* Assets.xcassets */; };
+		041630081CF373AF00EE7239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041630061CF373AF00EE7239 /* LaunchScreen.storyboard */; };
+		041630131CF373AF00EE7239 /* SkutHW22Touches2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041630121CF373AF00EE7239 /* SkutHW22Touches2Tests.m */; };
+		0416301E1CF373AF00EE7239 /* SkutHW22Touches2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0416301D1CF373AF00EE7239 /* SkutHW22Touches2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0416300F1CF373AF00EE7239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04162FED1CF373AF00EE7239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04162FF41CF373AF00EE7239;
+			remoteInfo = SkutHW22Touches2;
+		};
+		0416301A1CF373AF00EE7239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04162FED1CF373AF00EE7239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04162FF41CF373AF00EE7239;
+			remoteInfo = SkutHW22Touches2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04162FF51CF373AF00EE7239 /* SkutHW22Touches2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkutHW22Touches2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04162FF91CF373AF00EE7239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04162FFB1CF373AF00EE7239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04162FFC1CF373AF00EE7239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04162FFE1CF373AF00EE7239 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04162FFF1CF373AF00EE7239 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041630021CF373AF00EE7239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041630041CF373AF00EE7239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041630071CF373AF00EE7239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041630091CF373AF00EE7239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0416300E1CF373AF00EE7239 /* SkutHW22Touches2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkutHW22Touches2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041630121CF373AF00EE7239 /* SkutHW22Touches2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkutHW22Touches2Tests.m; sourceTree = "<group>"; };
+		041630141CF373AF00EE7239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041630191CF373AF00EE7239 /* SkutHW22Touches2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkutHW22Touches2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0416301D1CF373AF00EE7239 /* SkutHW22Touches2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkutHW22Touches2UITests.m; sourceTree = "<group>"; };
+		0416301F1CF373AF00EE7239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04162FF21CF373AF00EE7239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0416300B1CF373AF00EE7239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041630161CF373AF00EE7239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04162FEC1CF373AF00EE7239 = {
+			isa = PBXGroup;
+			children = (
+				04162FF71CF373AF00EE7239 /* SkutHW22Touches2 */,
+				041630111CF373AF00EE7239 /* SkutHW22Touches2Tests */,
+				0416301C1CF373AF00EE7239 /* SkutHW22Touches2UITests */,
+				04162FF61CF373AF00EE7239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04162FF61CF373AF00EE7239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04162FF51CF373AF00EE7239 /* SkutHW22Touches2.app */,
+				0416300E1CF373AF00EE7239 /* SkutHW22Touches2Tests.xctest */,
+				041630191CF373AF00EE7239 /* SkutHW22Touches2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04162FF71CF373AF00EE7239 /* SkutHW22Touches2 */ = {
+			isa = PBXGroup;
+			children = (
+				04162FFB1CF373AF00EE7239 /* AppDelegate.h */,
+				04162FFC1CF373AF00EE7239 /* AppDelegate.m */,
+				04162FFE1CF373AF00EE7239 /* ViewController.h */,
+				04162FFF1CF373AF00EE7239 /* ViewController.m */,
+				041630011CF373AF00EE7239 /* Main.storyboard */,
+				041630041CF373AF00EE7239 /* Assets.xcassets */,
+				041630061CF373AF00EE7239 /* LaunchScreen.storyboard */,
+				041630091CF373AF00EE7239 /* Info.plist */,
+				04162FF81CF373AF00EE7239 /* Supporting Files */,
+			);
+			path = SkutHW22Touches2;
+			sourceTree = "<group>";
+		};
+		04162FF81CF373AF00EE7239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04162FF91CF373AF00EE7239 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041630111CF373AF00EE7239 /* SkutHW22Touches2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				041630121CF373AF00EE7239 /* SkutHW22Touches2Tests.m */,
+				041630141CF373AF00EE7239 /* Info.plist */,
+			);
+			path = SkutHW22Touches2Tests;
+			sourceTree = "<group>";
+		};
+		0416301C1CF373AF00EE7239 /* SkutHW22Touches2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0416301D1CF373AF00EE7239 /* SkutHW22Touches2UITests.m */,
+				0416301F1CF373AF00EE7239 /* Info.plist */,
+			);
+			path = SkutHW22Touches2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04162FF41CF373AF00EE7239 /* SkutHW22Touches2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041630221CF373AF00EE7239 /* Build configuration list for PBXNativeTarget "SkutHW22Touches2" */;
+			buildPhases = (
+				04162FF11CF373AF00EE7239 /* Sources */,
+				04162FF21CF373AF00EE7239 /* Frameworks */,
+				04162FF31CF373AF00EE7239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkutHW22Touches2;
+			productName = SkutHW22Touches2;
+			productReference = 04162FF51CF373AF00EE7239 /* SkutHW22Touches2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0416300D1CF373AF00EE7239 /* SkutHW22Touches2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041630251CF373AF00EE7239 /* Build configuration list for PBXNativeTarget "SkutHW22Touches2Tests" */;
+			buildPhases = (
+				0416300A1CF373AF00EE7239 /* Sources */,
+				0416300B1CF373AF00EE7239 /* Frameworks */,
+				0416300C1CF373AF00EE7239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041630101CF373AF00EE7239 /* PBXTargetDependency */,
+			);
+			name = SkutHW22Touches2Tests;
+			productName = SkutHW22Touches2Tests;
+			productReference = 0416300E1CF373AF00EE7239 /* SkutHW22Touches2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		041630181CF373AF00EE7239 /* SkutHW22Touches2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041630281CF373AF00EE7239 /* Build configuration list for PBXNativeTarget "SkutHW22Touches2UITests" */;
+			buildPhases = (
+				041630151CF373AF00EE7239 /* Sources */,
+				041630161CF373AF00EE7239 /* Frameworks */,
+				041630171CF373AF00EE7239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0416301B1CF373AF00EE7239 /* PBXTargetDependency */,
+			);
+			name = SkutHW22Touches2UITests;
+			productName = SkutHW22Touches2UITests;
+			productReference = 041630191CF373AF00EE7239 /* SkutHW22Touches2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04162FED1CF373AF00EE7239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04162FF41CF373AF00EE7239 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0416300D1CF373AF00EE7239 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04162FF41CF373AF00EE7239;
+					};
+					041630181CF373AF00EE7239 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04162FF41CF373AF00EE7239;
+					};
+				};
+			};
+			buildConfigurationList = 04162FF01CF373AF00EE7239 /* Build configuration list for PBXProject "SkutHW22Touches2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04162FEC1CF373AF00EE7239;
+			productRefGroup = 04162FF61CF373AF00EE7239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04162FF41CF373AF00EE7239 /* SkutHW22Touches2 */,
+				0416300D1CF373AF00EE7239 /* SkutHW22Touches2Tests */,
+				041630181CF373AF00EE7239 /* SkutHW22Touches2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04162FF31CF373AF00EE7239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041630081CF373AF00EE7239 /* LaunchScreen.storyboard in Resources */,
+				041630051CF373AF00EE7239 /* Assets.xcassets in Resources */,
+				041630031CF373AF00EE7239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0416300C1CF373AF00EE7239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041630171CF373AF00EE7239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04162FF11CF373AF00EE7239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041630001CF373AF00EE7239 /* ViewController.m in Sources */,
+				04162FFD1CF373AF00EE7239 /* AppDelegate.m in Sources */,
+				04162FFA1CF373AF00EE7239 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0416300A1CF373AF00EE7239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041630131CF373AF00EE7239 /* SkutHW22Touches2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041630151CF373AF00EE7239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0416301E1CF373AF00EE7239 /* SkutHW22Touches2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041630101CF373AF00EE7239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04162FF41CF373AF00EE7239 /* SkutHW22Touches2 */;
+			targetProxy = 0416300F1CF373AF00EE7239 /* PBXContainerItemProxy */;
+		};
+		0416301B1CF373AF00EE7239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04162FF41CF373AF00EE7239 /* SkutHW22Touches2 */;
+			targetProxy = 0416301A1CF373AF00EE7239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041630011CF373AF00EE7239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041630021CF373AF00EE7239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041630061CF373AF00EE7239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041630071CF373AF00EE7239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041630201CF373AF00EE7239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041630211CF373AF00EE7239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041630231CF373AF00EE7239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkutHW22Touches2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutHW22Touches2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		041630241CF373AF00EE7239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkutHW22Touches2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutHW22Touches2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		041630261CF373AF00EE7239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkutHW22Touches2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutHW22Touches2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkutHW22Touches2.app/SkutHW22Touches2";
+			};
+			name = Debug;
+		};
+		041630271CF373AF00EE7239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkutHW22Touches2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutHW22Touches2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkutHW22Touches2.app/SkutHW22Touches2";
+			};
+			name = Release;
+		};
+		041630291CF373AF00EE7239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkutHW22Touches2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutHW22Touches2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkutHW22Touches2;
+			};
+			name = Debug;
+		};
+		0416302A1CF373AF00EE7239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkutHW22Touches2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutHW22Touches2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkutHW22Touches2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04162FF01CF373AF00EE7239 /* Build configuration list for PBXProject "SkutHW22Touches2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041630201CF373AF00EE7239 /* Debug */,
+				041630211CF373AF00EE7239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041630221CF373AF00EE7239 /* Build configuration list for PBXNativeTarget "SkutHW22Touches2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041630231CF373AF00EE7239 /* Debug */,
+				041630241CF373AF00EE7239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041630251CF373AF00EE7239 /* Build configuration list for PBXNativeTarget "SkutHW22Touches2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041630261CF373AF00EE7239 /* Debug */,
+				041630271CF373AF00EE7239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041630281CF373AF00EE7239 /* Build configuration list for PBXNativeTarget "SkutHW22Touches2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041630291CF373AF00EE7239 /* Debug */,
+				0416302A1CF373AF00EE7239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04162FED1CF373AF00EE7239 /* Project object */;
+}

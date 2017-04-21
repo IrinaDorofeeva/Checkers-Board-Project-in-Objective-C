@@ -4,14 +4,6 @@
 //  Created by Mac on 5/19/16.
 //
 //
-/*
-    8x8 chest board (one white view with black subviews) was created. 
-    White and red checkers on black squares were
-    created. Drag and drop functionality for checkers was implemented. 
-    Dragged checkers should land onto nearest to the drop
-    location black square.
-    Checkers can't be dragged outside of the board.*/
- 
 
 #import "ViewController.h"
 
@@ -136,6 +128,9 @@
     
     
     CGPoint centerPoint= self.draggingView.center;
+   // UIView* firstView = self.blackRectArray[1];
+    //CGPoint closePoint = firstView.center;
+    
     CGFloat minDistance =CGRectGetWidth(self.boardView.bounds)*CGRectGetWidth(self.boardView.bounds) + CGRectGetHeight(self.boardView.bounds)*CGRectGetHeight(self.boardView.bounds);
     [self calculateDistanceBetweenPoints: centerPoint and: self.view.center];
     CGPoint closePoint = self.draggingView.center;
@@ -158,6 +153,13 @@
     
     
     self.draggingView.center = closePoint;
+    
+ //   if(!self.whiteIndex)
+ //   {self.whiteChessArray[self.whiteIndex]=self.draggingView;}
+    
+ //   if(!self.redIndex)
+  //  {self.redChessArray[self.whiteIndex]=self.draggingView;}
+    
     self.draggingView = nil;
  
 }
@@ -236,6 +238,39 @@
     return blackRectIsFree;
  }
 
+/* NSMutableArray* deltas =[[NSMutableArray alloc]init];
+ 
+ for (UIView* rect in self.blackRectArray)
+ {
+ CGFloat dx = CGRectGetMidX(rect.bounds)-self.draggingView.center.x;
+ CGFloat dy = CGRectGetMidY(rect.bounds)-self.draggingView.center.y;
+ if(dx<dy)
+ [deltas addObject:[NSNumber numberWithFloat:dx]];
+ else
+ [deltas addObject:[NSNumber numberWithFloat:dy]];
+ }
+ 
+ CGFloat deltaMin=[[deltas objectAtIndex:0] floatValue];
+ for (int i = 0; i<[deltas count]; i++)
+ {
+ CGFloat deltaCurrent=[[deltas objectAtIndex:i] floatValue];
+ 
+ if (deltaCurrent<deltaMin)
+ {
+ deltaMin=deltaCurrent;
+ self.index = i;
+ }
+ }
+ 
+ 
+ UIView* closeView = [self.blackRectArray objectAtIndex: self.index];
+ 
+ CGPoint landing = CGPointMake (CGRectGetMidX(closeView.bounds),
+ CGRectGetMidY(closeView.bounds))/
+ 
+ self.draggingView.center = self.view.center;
+ 
+ //self.draggingView = nil;*/
 
 @end
 
@@ -254,5 +289,7 @@
  7. Шашки не могут быть поставлены за пределы поля.
  
  Вот такое вот веселое практическое задание :)
+ 
 
+ 
  */
