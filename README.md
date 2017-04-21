@@ -9,4 +9,6 @@ Drag and Drop Checkers on the Chess Board Exercise Project Written in Objective-
  Checkers can't be draggerd outside the board.
 
 
-[![Demo CountPages alpha](https://j.gifs.com/3lgY84.gif)](https://youtu.be/lI6s3HnBQv8)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lI6s3HnBQv8" frameborder="0" allowfullscreen></iframe>
